@@ -12,7 +12,7 @@ library(lubridate)
 
 
 
-rpath <- "/Users/Nawel/Desktop/Statistiques/STA202/Projet/Data/"
+rpath <- "/Users/Cadmo/Desktop/Statistiques/STA202/Projet/Data/"
 
 air_visits <- read_csv(str_c(rpath,'air_visit_data.csv'), col_types = cols())
 air_reserve <- read_csv(str_c(rpath,'air_reserve.csv'), col_types = cols())
